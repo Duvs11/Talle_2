@@ -33,3 +33,46 @@ b = False
 print(a and b)
 
 # Los operadores booleanos y de comparación son usados para definir condiciones
+
+# Estrucutras de control de código
+# En general un programa se ejecuta de manera secuencial
+# Sepuede romper esa secuencialidad 
+# Empleando un conjunto de sentencias (Expresiones) que permite:
+# 1. Seleccionar la ejecución de un bloque de código
+# 2. Repetir la ejecucuón de un bloque de código
+# 3. Seleccionar entre ejecutar un bloque de código u otro bloque de código
+# De esa manera "romper" la secuencialidad
+
+# Principios del paradigma de programación estructurado
+
+# Sentencia if, si se cumple una condición (se evalua cómo True)
+# Se ejecuta un bloque de código
+
+print("Linea 1")
+print("Linea 2")
+
+# 1.
+if 5>3:
+    print("Esto se muestra si la condición es verdadera")
+
+# 2.    
+if 5>8 or 3<7:
+    print("Esto se muestra si la condición es verdadera")
+    
+# 3.
+if 5>8 or 3<7:
+    print("Esto se muestra si la condición es verdadera")
+else: 
+    print("Esto se muestra si la condición es falsa")
+    
+# mmm
+entrada = int(input("cuantos años tiene??"))
+
+if entrada<18:
+    print("Es menor de edad")
+else:
+    print("Es mayor de edad")
+
+# Taller: Crear un programa en python que genere un número aleatrorio entre 1 y 12
+# Si el número es 7 imprimir Ganó
+# Si el número es iprimr deje el juego
