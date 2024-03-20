@@ -19,3 +19,17 @@ variable = 'a'
 variable = 3.1415926535
 
 # para asignar un valor a una variable se usa el operador =
+
+# Operadore: Es un mecanismo para obtener un dato a partir de otros datos
+# Los datos que intervienen se llaman operandos
+# Aritmeticos: (+)(-)(*)(/)(%)
+# Comparación: Retornan True o False (<)(>)(<=)(>=)(==)(!=)
+# Lógica booleana: OR AND, retornan True o False deacuerdo a una tabla de verdad
+# Los operandos siempre son booleanos
+
+a = True
+b = False
+
+print(a and b)
+
+# Los operadores booleanos y de comparación son usados para definir condiciones
