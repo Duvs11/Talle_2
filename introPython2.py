@@ -14,3 +14,13 @@ while i<10:
     print("ciclo")
     #Importante modificar el valor del contador
     i+=1
+    
+#ciclos controlados por el valor de una variable
+
+import random
+
+a=0
+while a!=5:
+    a=random.randint(1,10)
+    print(a)
+print("se acabó")
