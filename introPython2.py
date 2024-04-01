@@ -24,3 +24,13 @@ while a!=5:
     a=random.randint(1,10)
     print(a)
 print("se acabó")
+
+# Ciclos controlados por un evento
+
+a=0
+
+while 1==1:
+    a=int(input("Ingrese un número"))
+    
+    if a==10:
+        break
